@@ -1,0 +1,8 @@
+#!bin/bash/
+NAMES=( John Eric Jessica )
+NUMBERS=( 1 2 3 )
+STRINGS=( "Hello" "World" )
+NumberOfnames=${NAMES[@]}
+second_name=${NAMES[1]}
+echo ${NUMBERS[@]}
+echo ${STRINGS[@]}
